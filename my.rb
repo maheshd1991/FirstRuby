@@ -12,9 +12,11 @@ class Myclass<Myfirst
    puts c
    end
   def c
-     your_array = [[["Club three Team one", 7800], ["Club three Team two", 7801]], [], [["Club four Team one", 7807], ["Club four Team two", 7808]], []]
-      print your_array.each {|i| i.flatten!}
-    
+     #your_array = [[["Club three Team one", 7800], ["Club three Team two", 7801]], [], [["Club four Team one", 7807], ["Club four Team two", 7808]], []]
+      #print your_array.each {|i| i.flatten!}
+puts 'What is your first name?'
+fName = gets.chomp
+    puts fName
   end
 end
 ck=Myclass.new
