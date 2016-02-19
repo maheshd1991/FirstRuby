@@ -1,10 +1,17 @@
 class Arrarev
  
   def fun1
-   a=[1,2,3,4,5,6,7,8,9]
-   a.each do |key value|
-     puts "#{value}"
-   end
+    names = Array.new(20)
+   colors = { 1 => 2, 2 => 3, 3 => 4 }
+    size=1
+    count=3;
+  while  size <4 do
+       colors[size]
+       names[size]=colors[count]
+       count-=1
+      size+=1
+    end
+puts names
   end
 
 end
